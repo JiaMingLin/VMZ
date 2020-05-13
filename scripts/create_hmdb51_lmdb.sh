@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-python data/create_video_db.py \
---list_file=data/list/hmdb51/hmdb51_test_01.csv \
---output_file=/data/users/trandu/datasets/hmdb51_test01
+python2 ../data/create_video_db.py \
+--list_file=/4TB/action_data/downloaded/hmdb51_org/list/hmdb51/hmdb51_test_01.csv \
+--output_file=/4TB/action_data/HMDB51/hmdb51_test01
 
-python data/create_video_db.py \
---list_file=data/list/hmdb51/hmdb51_train_01.csv \
---output_file=/data/users/trandu/datasets/hmdb51_train01
+python2 ../data/create_video_db.py \
+--list_file=/4TB/action_data/downloaded/hmdb51_org/list/hmdb51/hmdb51_train_01.csv \
+--output_file=/4TB/action_data/HMDB51/hmdb51_train01
